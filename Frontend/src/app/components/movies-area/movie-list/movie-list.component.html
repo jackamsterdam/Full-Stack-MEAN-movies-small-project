@@ -1,0 +1,11 @@
+<div>
+    <label>Select Cinema</label>
+    &nbsp;
+    <select (change)="getMovies($event)">
+        <option disabled selected>Select...</option>
+        <option *ngFor="let c of cinemas" [value]="c._id">{{c.name}}</option>
+    </select>
+    <br><br>
+
+    <app-movie-card *ngFor="let m of movies" [movie]="m" (deleteMe)="deleteThisMovie($event)"></app-movie-card>
+</div>

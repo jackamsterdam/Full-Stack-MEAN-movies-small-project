@@ -1,0 +1,34 @@
+<div class="box">
+    <form (ngSubmit)="add()" #formBox="ngForm">
+        <h2>Add movie</h2>
+
+        <label>Select Cinema:</label>
+        <select name="cinemaId" #cinemaIdBox="ngModel" [(ngModel)]="movie.cinemaId" required>
+            <option selected disabled>Select...</option>
+            <option *ngFor="let c of cinemas" [value]="c._id">{{c.name}}</option>
+        </select>
+        <span *ngIf="cinemaIdBox.touched && cinemaIdBox.errors?.['required']">Missing cinema</span>
+
+        <label>Name:</label>
+        <input type="text" name="name" [(ngModel)]="movie.name" #nameBox="ngModel" required minlength="2"
+            maxlength="100">
+        <span *ngIf="nameBox.touched && nameBox.errors?.['required']">Missing name</span>
+        <span *ngIf="nameBox.touched && nameBox.errors?.['minlength']">Name too short</span>
+        <span *ngIf="nameBox.touched && nameBox.errors?.['maxlength']">Name too long</span>
+
+
+        <label>Duration:</label>
+        <input type="number" name="price" [(ngModel)]="movie.duration" #durationBox="ngModel" required min="0"
+            max="1000">
+        <span *ngIf="durationBox.touched && durationBox.errors?.['required']">Missing duration</span>
+        <span *ngIf="durationBox.touched && durationBox.errors?.['min']">Duration can't be negative</span>
+        <span *ngIf="durationBox.touched && durationBox.errors?.['max']">Duration can't exceed 1000</span>
+
+        <label>Date:</label>
+        <input type="datetime-local" name="date" [(ngModel)]="movie.date" #dateBox="ngModel" required>
+        <span *ngIf="dateBox.touched && dateBox.errors?.['required']">Missing date</span>
+
+        <button mat-flat-button color="primary" [disabled]="formBox.invalid">Add</button>
+
+    </form>
+</div>

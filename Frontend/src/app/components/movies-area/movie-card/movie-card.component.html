@@ -1,0 +1,7 @@
+<div>
+    <span>Name: {{movie.name}}</span><br>
+    <span>Date: {{movie.date | date }}</span><br>
+    <span>Duration: {{movie.duration}}</span><br>
+    <span>Cinema: {{movie.cinema.name}}</span><br>
+    <button (click)="deleteMovie(movie._id)">🚮</button>
+</div>

@@ -1,0 +1,54 @@
+info	2022:06:02 06:17:27	GET Request to /api/cinemas/
+info	2022:06:02 06:17:36	POST Request to /api/movies/
+info	2022:06:02 06:17:36	Route not found
+info	2022:06:02 06:18:07	POST Request to /api/movies/
+info	2022:06:02 06:18:07	MovieModel validation failed: date: Missing date
+info	2022:06:02 06:18:15	POST Request to /api/movies/
+info	2022:06:02 06:18:15	MovieModel validation failed: date: Missing date
+info	2022:06:02 06:18:20	POST Request to /api/movies/
+info	2022:06:02 06:18:47	POST Request to /api/movies/
+info	2022:06:02 06:19:02	POST Request to /api/movies/
+info	2022:06:02 06:19:43	POST Request to /api/movies/
+info	2022:06:02 06:20:38	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 06:20:53	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 06:21:12	GET Request to /api/cinemas/
+info	2022:06:02 06:21:19	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 06:21:39	POST Request to /api/movies/
+info	2022:06:02 06:21:50	DELETE Request to /api/movies/62982cc346bef10e8d8082b4
+info	2022:06:02 06:21:53	DELETE Request to /api/movies/62982cc346bef10e8d8082b4
+info	2022:06:02 06:21:53	Resource with _id 62982cc346bef10e8d8082b4 not found
+info	2022:06:02 06:21:58	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 06:22:08	GET Request to /api/movies-by-cinema/62982808afdb630372439d02
+info	2022:06:02 06:23:03	POST Request to /api/movies/
+info	2022:06:02 06:23:14	DELETE Request to /api/movies/62982d1746bef10e8d8082ba
+info	2022:06:02 06:23:25	POST Request to /api/movies/
+error	2022:06:02 06:23:25	E11000 duplicate key error collection: moviesdb.movies index: name_1 dup key: { name: "Home Alone" }
+info	2022:06:02 06:23:38	POST Request to /api/movies/
+info	2022:06:02 06:23:54	POST Request to /api/movies/
+info	2022:06:02 06:24:09	POST Request to /api/movies/
+info	2022:06:02 06:25:00	POST Request to /api/movies/
+info	2022:06:02 06:25:09	GET Request to /api/movies-by-cinema/62982808afdb630372439d02
+info	2022:06:02 06:25:14	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 07:31:39	GET Request to /api/cinemas/
+info	2022:06:02 07:33:05	GET Request to /api/cinemas/
+info	2022:06:02 07:33:33	GET Request to /api/cinemas/
+info	2022:06:02 07:35:27	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 07:35:45	GET Request to /api/cinemas/
+info	2022:06:02 07:36:38	GET Request to /api/cinemas/
+info	2022:06:02 07:37:00	POST Request to /api/movies/
+info	2022:06:02 07:37:00	GET Request to /api/cinemas/
+info	2022:06:02 07:37:02	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 07:37:05	DELETE Request to /api/movies/62983e6cbb938da0723406a5
+info	2022:06:02 07:37:08	GET Request to /api/cinemas/
+info	2022:06:02 07:37:10	GET Request to /api/cinemas/
+info	2022:06:02 07:37:11	GET Request to /api/cinemas/
+info	2022:06:02 07:37:13	GET Request to /api/cinemas/
+info	2022:06:02 07:37:23	GET Request to /api/cinemas/
+info	2022:06:02 07:37:25	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 07:37:28	GET Request to /api/movies-by-cinema/62982808afdb630372439d02
+info	2022:06:02 07:37:32	GET Request to /api/cinemas/
+info	2022:06:02 07:37:39	POST Request to /api/movies/
+info	2022:06:02 07:37:39	GET Request to /api/cinemas/
+info	2022:06:02 07:37:41	GET Request to /api/movies-by-cinema/629827f2afdb630372439d00
+info	2022:06:02 07:37:45	DELETE Request to /api/movies/62983e93bb938da0723406b5
+info	2022:06:02 07:37:47	GET Request to /api/cinemas/
